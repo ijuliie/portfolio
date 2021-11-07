@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import 'semantic-ui-css/semantic.min.css'
+import Header from './Header/Header'
+import Projects from './Projects/Projects'
+import AboutMe from './AboutMe/AboutMe'
+import Skills from './Skills/Skills'
+import DividerHorizontal from './DividerHorizontal/DividerHorizontal'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      {/* <DividerHorizontal /> */}
+      <Projects />
+      <AboutMe />
+      <Skills />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
