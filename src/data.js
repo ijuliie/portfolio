@@ -90,10 +90,10 @@ const data = {
   // End Work Section -----------------------
 
   // About Secton --------------
-  aboutParaOne:
-    "I'm a full stack developer from Buena Park, California. I ",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  paragraph1:
+    'I am a full stack web developer from Buena Park, California. I focus on creating beautiful, functional, and user friendly websites.',
+  paragraph2:
+    'I enjoy a good cup of coffee, eating delicious meals, binge watching a great tv show, and playing video games. 😁',
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
