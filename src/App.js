@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <AboutMe />
       {/* <DividerHorizontal /> */}
       <Projects />
-      <AboutMe />
       <Skills />
     </div>
   )
