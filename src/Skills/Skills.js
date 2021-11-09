@@ -12,7 +12,7 @@ const Skills = () => {
                         {data.skills.map((skill, i) => {
                             return (
                                 <div>
-                                    <img src={skill.img} />
+                                    <img alt={skill.language} src={skill.img} />
                                     <p>{skill.language}</p>
                                 </div>
                             )
