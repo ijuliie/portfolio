@@ -1,11 +1,11 @@
 // // Skills Icons
-// import htmlIcon from "./images/html.svg"
-// import cssIcon from "./images/css.svg"
-// import reactIcon from "./images/react.svg"
-// import jsIcon from "./images/javascript.svg"
-// import designIcon from "./images/design.svg"
-// import codeIcon from "./images/code.svg"
-// import GoIcon from "./images/go.png"
+import htmlIcon from "./assets/html.svg"
+import cssIcon from "./assets/css.svg"
+import reactIcon from './assets/react.svg'
+import jsIcon from "./assets/javascript.svg"
+import gitIcon from "./assets/git.svg"
+import sqlIcon from "./assets/sql-database.svg"
+import GoIcon from "./assets/golang.svg"
 
 // // Social Icon
 // import githubIcon from "./images/github.svg"
@@ -106,29 +106,35 @@ const data = {
   //   Import Icons from the top and link it here
 
   skills: [
-    // {
-    //   img: htmlIcon,
-    //   para: 'HTML 5',
-    // },
-    // {
-    //   img: cssIcon,
-    //   para: 'CSS',
-    // },
-    // {
-    //   img: jsIcon,
-    //   para: 'JavaScript',
-    // },
-    // {
-    //   img: reactIcon,
-    //   para: 'ReactJS',
-    // },
-    // {
-    //   img: GoIcon,
-    //   para: 'Golang',
-    // }
+    {
+      img: htmlIcon,
+      language: 'HTML 5',
+    },
+    {
+      img: cssIcon,
+      language: 'CSS',
+    },
+    {
+      img: jsIcon,
+      language: 'JavaScript',
+    },
+    {
+      img: reactIcon,
+      language: 'ReactJS',
+    },
+    {
+      img: GoIcon,
+      language: 'Golang',
+    },
+    {
+      img: sqlIcon,
+      language: 'SQL',
+    },
+    {
+      img: gitIcon,
+      language: 'Git',
+    },
   ],
-
-  // End Skills Section --------------------------
 
   //   Contact Section --------------
 
@@ -149,11 +155,7 @@ const data = {
     //   url: "https://www.instagram.com/",
     // },
   ],
-
-  // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
 
 
 export default data

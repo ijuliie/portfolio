@@ -7,20 +7,22 @@ const Projects = () => {
     return (
         <div id='projects'>
             <div className='container'>
-                <h1 className='section-header'>Projects</h1>
-                <div className='project-wrapper'>
-                    <div className='grid'>
-                        {
-                            data.projects.map((info, i) => {
-                                return (
-                                    <Card
-                                        heading={info.title}
-                                        imgUrl={info.imageSrc}
-                                        paragraph={info.para}
-                                    />
-                                )
-                            })
-                        }
+                <div>
+                    <h1 style={{ textAlign: 'left' }} className='section-header'>Projects</h1>
+                    <div className='project-wrapper'>
+                        <div className='grid'>
+                            {
+                                data.projects.map((info, i) => {
+                                    return (
+                                        <Card
+                                            heading={info.title}
+                                            imgUrl={info.imageSrc}
+                                            paragraph={info.para}
+                                        />
+                                    )
+                                })
+                            }
+                        </div>
                     </div>
                 </div>
             </div>
