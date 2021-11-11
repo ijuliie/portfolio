@@ -1,7 +1,12 @@
 .nav-bar-wrapper {
-  width: 60vw; 
+  width: 70vw; 
   margin-top: 6vh;
   display: flex; 
   align-items: center; 
   justify-content: space-between; 
+}
+
+.nav-bar-wrapper > h1 {
+  font-size: 4em;
+  font-family: Snell Roundhand, cursive;
 }

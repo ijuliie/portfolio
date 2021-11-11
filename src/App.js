@@ -4,6 +4,7 @@ import Header from './Header/Header'
 import Projects from './Projects/Projects'
 import About from './About/About'
 import Skills from './Skills/Skills'
+import Contact from './Contact/Contact'
 import DividerHorizontal from './DividerHorizontal/DividerHorizontal'
 
 function App() {
@@ -11,9 +12,11 @@ function App() {
     <div className="App">
       <Header />
       <About />
-      {/* <DividerHorizontal /> */}
       <Projects />
       <Skills />
+      <Contact />
+      <DividerHorizontal />
+      
     </div>
   )
 }

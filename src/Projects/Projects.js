@@ -16,8 +16,9 @@ const Projects = () => {
                                     return (
                                         <Card
                                             heading={info.title}
-                                            imgUrl={info.imageSrc}
-                                            paragraph={info.para}
+                                            image={info.image}
+                                            description={info.description}
+                                            url={info.url}
                                         />
                                     )
                                 })

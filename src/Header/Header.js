@@ -6,9 +6,9 @@ const Header = () => {
         <div id='header' style={{ width: '100vw' }}>
             <div className='container'>
                 <div className='nav-bar-wrapper' >
-                    <p>
+                    <h1>
                         julie trinh
-                    </p>
+                    </h1>
                     <div className='link-wrapper' style={{  }}>
                         <button>projects</button>
                         <button>about me</button>

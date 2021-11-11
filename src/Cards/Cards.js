@@ -1,28 +1,31 @@
 import React from "react"
+import { Button } from "semantic-ui-react"
 import './cards.scss'
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = (props) => {
+    const { heading, description, image, url } = props
     return (
         <div
             className="card"
             style={{
                 backgroundImage:
                     "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
-                    imgUrl +
+                    image +
                     ")",
             }}
         >
             <div className="content">
-                <h1 className="header">{heading}</h1>
-                <p className="text">{paragraph}</p>
-                <a
-                    href={projectLink ? projectLink : "#"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn"
-                >
-                    Explore
-                </a>
+                <Button basic color='grey' size='large'>
+                    <a
+                        className='link'
+                        href={url ? url : "#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {heading}
+                    </a>
+                </Button>
+                <p className="text">{description}</p>
             </div>
         </div>
     )
