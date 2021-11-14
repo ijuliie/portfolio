@@ -8,13 +8,14 @@ const Projects = () => {
         <div id='projects'>
             <div className='container'>
                 <div>
-                    <h1 style={{ textAlign: 'left' }} className='section-header'>Projects</h1>
+                    <h1 style={{ textAlign: 'right' }} className='section-header'>Projects</h1>
                     <div className='project-wrapper'>
                         <div className='grid'>
                             {
                                 data.projects.map((info, i) => {
                                     return (
                                         <Card
+                                            key={info.title}
                                             heading={info.title}
                                             image={info.image}
                                             description={info.description}

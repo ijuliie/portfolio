@@ -8,15 +8,18 @@ const Contact = () => {
         <div id='contact'>
             <div className='container'>
                 <h1 className='section-header'>Contact</h1>
-                <div className='Contact-wrapper'>
+                <div className='contact-wrapper'>
+                    <Header as='h1'>
+                        {data.contactHeading}
+                    </Header>
                     <Header as='h1'>
                         <a href='mailto:ijuliie06@gmail.com'>{data.contactEmail}</a>
                     </Header>
-                    <div>
+                    <div className='buttons'>
                         {
                             data.social.map((info) => {
                                 return (
-                                    <Button color={info.social}>
+                                    <Button key={info.social} color={info.social}>
                                         <a href={info.url}><Icon name={info.social} />{info.label}</a>
                                     </Button>
                                 )
