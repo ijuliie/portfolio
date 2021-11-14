@@ -5,7 +5,7 @@ import Projects from './Projects/Projects'
 import About from './About/About'
 import Skills from './Skills/Skills'
 import Contact from './Contact/Contact'
-import DividerHorizontal from './DividerHorizontal/DividerHorizontal'
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -15,8 +15,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
-      <DividerHorizontal />
-      
+      <Footer />
     </div>
   )
 }
