@@ -7,25 +7,7 @@ import gitIcon from "./assets/git.svg"
 import sqlIcon from "./assets/sql-database.svg"
 import GoIcon from "./assets/golang.svg"
 
-// // Social Icon
-// import githubIcon from "./images/github.svg"
-// import codepenIcon from "./images/codepen.svg"
-// import dribbbleIcon from "./images/dribbble.svg"
-// import instagramIcon from "./images/instagram.svg"
-
 const data = {
-
-  // Header Details
-  name: "julie",
-  headerTagline: [
-    //Line 1 For Header
-    "I'm a Full Stack Developer",
-    //Line 2 For Header
-    //Line 3 For Header
-  ],
-  // Header Paragraph
-  headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
   contactEmail: "ijuliie06@gmail.com",
@@ -64,10 +46,8 @@ const data = {
     'I am a full stack web developer from Buena Park, California. I focus on creating beautiful, functional, and user friendly websites.',
   paragraph2:
     'I enjoy a good cup of coffee, eating delicious meals, binge watching a great tv show, and playing video games. 😁',
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  image:
+    'https://res.cloudinary.com/ijuliie/image/upload/v1636850717/IMG_0389_tz1phh.jpg',
 
 
   // Skills Section
@@ -105,7 +85,7 @@ const data = {
 
   //   Contact Section
 
-  contactSubHeading: '',
+  contactHeading: `Let's create beautiful apps together ❤️`,
   social: [
     {
       label: 'LinkedIn',
@@ -120,7 +100,7 @@ const data = {
     {
       label: 'Twitter',
       social: 'twitter',
-      twitter: 'https://twitter.com/ijuliiee'
+      url: 'https://twitter.com/ijuliiee'
     }
   ],
 }

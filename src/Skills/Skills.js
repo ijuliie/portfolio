@@ -9,9 +9,9 @@ const Skills = () => {
             <div className='container'>
                     <h1 className='section-header'>Skills</h1>
                     <div className='skills-wrapper'>
-                        {data.skills.map((skill, i) => {
+                        {data.skills.map((skill) => {
                             return (
-                                <div>
+                                <div key={skill.language} style={{ margin: '2rem' }}>
                                     <Image alt={skill.language} src={skill.img} />
                                     <p>{skill.language}</p>
                                 </div>
