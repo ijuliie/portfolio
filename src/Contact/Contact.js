@@ -1,9 +1,13 @@
 import React from 'react'
-import { Header, Button, Icon } from 'semantic-ui-react'
+import { Header, Button } from 'semantic-ui-react'
 import data from '../data'
 import './contact.scss'
 
 const Contact = () => {
+    const handleClick = (url) => {
+        window.open(url, '_blank')
+    }
+
     return (
         <div id='contact'>
             <div className='container'>
@@ -19,9 +23,14 @@ const Contact = () => {
                         {
                             data.social.map((info) => {
                                 return (
-                                    <Button key={info.social} color={info.social}>
-                                        <a href={info.url}><Icon name={info.social} />{info.label}</a>
-                                    </Button>
+                                    <Button
+                                        circular
+                                        size='big'
+                                        onClick={() => handleClick(info.url)}
+                                        key={info.social}
+                                        icon={info.social}
+                                        color={info.social}
+                                    />
                                 )
                             })
                         }

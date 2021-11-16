@@ -1,11 +1,13 @@
 // // Skills Icons
-import htmlIcon from "./assets/html.svg"
-import cssIcon from "./assets/css.svg"
+import htmlIcon from './assets/html.svg'
+import cssIcon from './assets/css.svg'
 import reactIcon from './assets/react.svg'
-import jsIcon from "./assets/javascript.svg"
-import gitIcon from "./assets/git.svg"
-import sqlIcon from "./assets/sql-database.svg"
-import GoIcon from "./assets/golang.svg"
+import reactIcon2 from './assets/react-native.svg'
+import jsIcon from './assets/javascript.svg'
+import gitIcon from './assets/git.svg'
+import sqlIcon from './assets/sql-database.svg'
+import GoIcon from './assets/golang.svg'
+import atlassianIcon from './assets/atlassian.svg'
 
 const data = {
 
@@ -38,6 +40,18 @@ const data = {
       image: 'https://res.cloudinary.com/ijuliie/image/upload/v1636248018/Screenshot_2021-11-06_at_6.19.32_PM_y9c5du.png',
       url: 'https://recipeze.netlify.app/',
     },
+    {
+      title: 'QuickSCIP',
+      description: 'CMS experience with webflow',
+      image: 'https://res.cloudinary.com/ijuliie/image/upload/v1637078298/Screenshot_2021-11-16_at_7.51.04_AM_zoaqtu.png',
+      url: 'https://quickscip.com/',
+    },
+    {
+      title: 'Tangent Systems',
+      description: 'CMS experience with webflow',
+      image: 'https://res.cloudinary.com/ijuliie/image/upload/v1637078883/Screenshot_2021-11-16_at_8.07.47_AM_gxqtml.png',
+      url: 'https://www.tangent-inc.com/',
+    },
   ],
 
   // About Secton
@@ -67,7 +81,11 @@ const data = {
     },
     {
       img: reactIcon,
-      language: 'ReactJS',
+      language: 'React',
+    },
+    {
+      img: reactIcon2,
+      language: 'React Native',
     },
     {
       img: GoIcon,
@@ -76,6 +94,10 @@ const data = {
     {
       img: sqlIcon,
       language: 'SQL',
+    },
+    {
+      img: atlassianIcon,
+      language: 'Atlassian',
     },
     {
       img: gitIcon,
