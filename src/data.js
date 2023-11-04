@@ -57,7 +57,7 @@ const data = {
   // About Secton
 
   paragraph1:
-    'I am a front end developer from Buena Park, California. I focus on creating beautiful, functional, and user friendly websites.',
+    'I am a front end developer from Santa Ana, California. I focus on creating beautiful, functional, and user friendly websites.',
   paragraph2:
     'I enjoy a good cup of coffee, eating delicious meals, binge watching a great tv show, and playing video games. 😁',
   image:
@@ -106,7 +106,6 @@ const data = {
   ],
 
   //   Contact Section
-
   contactHeading: `Let's create beautiful apps together ❤️`,
   social: [
     {
@@ -114,16 +113,6 @@ const data = {
       social: 'linkedin',
       url: 'https://www.linkedin.com/in/trinh-julie/'
     },
-    {
-      label: 'Facebook',
-      social: 'facebook',
-      url: 'https://www.facebook.com/ijoolie/'
-    },
-    {
-      label: 'Twitter',
-      social: 'twitter',
-      url: 'https://twitter.com/ijuliiee'
-    }
   ],
 }
 
