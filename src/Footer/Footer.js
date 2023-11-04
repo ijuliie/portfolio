@@ -1,11 +1,8 @@
-import React from "react"
+import React from "react";
 
-const Footer = () => {
-    return (
-        <div style={{ textAlign: 'center' }}>
-            © 2021
-        </div>
-    )
-}
+const Footer = (props) => {
+  const { date } = props;
+  return <div style={{ textAlign: "center" }}>© {date}</div>;
+};
 
-export default Footer
+export default Footer;

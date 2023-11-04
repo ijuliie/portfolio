@@ -15,7 +15,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
-      <Footer />
+      <Footer date={new Date().getFullYear()} />
     </div>
   )
 }
