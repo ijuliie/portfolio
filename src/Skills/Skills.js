@@ -11,9 +11,9 @@ const Skills = () => {
                     <div className='skills-wrapper'>
                         {data.skills.map((skill) => {
                             return (
-                                <div key={skill.language} style={{ margin: '2rem' }}>
+                                <div className='skill' key={skill.language}>
                                     <Image alt={skill.language} src={skill.img} />
-                                    <p>{skill.language}</p>
+                                    <p className='description'>{skill.language}</p>
                                 </div>
                             )
                         })}

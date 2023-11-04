@@ -1,4 +1,12 @@
 .skills-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  .skill {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 }
