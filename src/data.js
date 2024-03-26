@@ -20,7 +20,7 @@ const data = {
       title: "Control Tower",
       description: "Maintained data manager website using React and Golang",
       image: "https://res.cloudinary.com/ijuliie/image/upload/v1636233544/Screenshot_2021-11-06_at_2.13.50_PM_z12exh.png",
-      url: "https://controltower.quickscip.com/",
+      url: "",
     },
     {
       title: "QuickSCIP",
@@ -57,7 +57,7 @@ const data = {
   // About Secton
 
   paragraph1:
-    'I am a front end developer from Santa Ana, California. I focus on creating beautiful, functional, and user friendly websites.',
+    'I am a front end developer from Twin Falls, Idaho. I focus on creating beautiful, functional, and user friendly websites.',
   paragraph2:
     'I enjoy a good cup of coffee, eating delicious meals, binge watching a great tv show, and playing video games. 😁',
   image:
