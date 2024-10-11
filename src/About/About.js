@@ -1,6 +1,4 @@
 import React from 'react'
-import data from '../data'
-import { Image } from 'semantic-ui-react'
 import './about.scss'
 
 const AboutMe = () => {
