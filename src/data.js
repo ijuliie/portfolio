@@ -5,7 +5,7 @@ import reactIcon from './assets/react.svg'
 import reactIcon2 from './assets/react-native.svg'
 import jsIcon from './assets/javascript.svg'
 import gitIcon from './assets/git.svg'
-import sqlIcon from './assets/sql-database.svg'
+// import sqlIcon from './assets/sql-database.svg'
 import GoIcon from './assets/golang.svg'
 import atlassianIcon from './assets/atlassian.svg'
 
@@ -97,10 +97,10 @@ const data = {
       img: GoIcon,
       language: 'Golang',
     },
-    {
-      img: sqlIcon,
-      language: 'SQL',
-    },
+    // {
+    //   img: sqlIcon,
+    //   language: 'SQL',
+    // },
     {
       img: atlassianIcon,
       language: 'Atlassian',
