@@ -17,6 +17,12 @@ const data = {
   // Work Section
   projects: [
     {
+      title: "Tether RE Portal",
+      description: "Developed and maintained realtor web portal using React, React Admin Framework, and Material UI",
+      image: "https://res.cloudinary.com/ijuliie/image/upload/v1728605518/Screenshot_2024-10-10_at_6.11.52_PM_ybemjr.png",
+      url: "https://portal.tetherre.com/",
+    },
+    {
       title: "Control Tower",
       description: "Maintained data manager website using React and Golang",
       image: "https://res.cloudinary.com/ijuliie/image/upload/v1636233544/Screenshot_2021-11-06_at_2.13.50_PM_z12exh.png",
