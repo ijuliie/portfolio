@@ -23,18 +23,6 @@ const data = {
       url: "https://portal.tetherre.com/",
     },
     {
-      title: "Control Tower",
-      description: "Maintained data manager website using React and Golang",
-      image: "https://res.cloudinary.com/ijuliie/image/upload/v1636233544/Screenshot_2021-11-06_at_2.13.50_PM_z12exh.png",
-      url: "",
-    },
-    {
-      title: "QuickSCIP",
-      description: 'Maintained data collector mobile app using React Native',
-      image: 'https://res.cloudinary.com/ijuliie/image/upload/v1636240005/Screenshot_20211106-160340_QuickSCIP_npip7a.jpg',
-      url: "",
-    },
-    {
       title: 'The Deli Station',
       description: 'Designed restaurant menu website using React',
       image: 'https://res.cloudinary.com/ijuliie/image/upload/v1636234379/Screenshot_2021-11-06_at_2.32.46_PM_nxfva7.png',
@@ -47,25 +35,16 @@ const data = {
       url: 'https://recipeze.netlify.app/',
     },
     {
-      title: 'QuickSCIP',
-      description: 'CMS experience with webflow',
-      image: 'https://res.cloudinary.com/ijuliie/image/upload/v1637078298/Screenshot_2021-11-16_at_7.51.04_AM_zoaqtu.png',
-      url: 'https://quickscip.com/',
-    },
-    {
       title: 'Tangent Systems',
-      description: 'CMS experience with webflow',
+      description: 'Experience with webflow',
       image: 'https://res.cloudinary.com/ijuliie/image/upload/v1637078883/Screenshot_2021-11-16_at_8.07.47_AM_gxqtml.png',
       url: 'https://www.tangent-inc.com/',
     },
   ],
 
   // About Secton
-
   paragraph1:
-    'I am a front end developer from Twin Falls, Idaho. I focus on creating beautiful, functional, and user friendly websites.',
-  paragraph2:
-    'I enjoy a good cup of coffee, eating delicious meals, binge watching a great tv show, and playing video games. 😁',
+    'I am a front end developer who focuses on creating beautiful, functional, and user friendly websites.',
   image:
     'https://res.cloudinary.com/ijuliie/image/upload/v1636850717/IMG_0389_tz1phh.jpg',
 
@@ -97,10 +76,6 @@ const data = {
       img: GoIcon,
       language: 'Golang',
     },
-    // {
-    //   img: sqlIcon,
-    //   language: 'SQL',
-    // },
     {
       img: atlassianIcon,
       language: 'Atlassian',
