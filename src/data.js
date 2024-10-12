@@ -3,9 +3,8 @@ import htmlIcon from './assets/html.svg'
 import cssIcon from './assets/css.svg'
 import reactIcon from './assets/react.svg'
 import reactIcon2 from './assets/react-native.svg'
-import jsIcon from './assets/javascript.svg'
 import gitIcon from './assets/git.svg'
-// import sqlIcon from './assets/sql-database.svg'
+import tsIcon from './assets/typescript-16.svg'
 import GoIcon from './assets/golang.svg'
 import atlassianIcon from './assets/atlassian.svg'
 
@@ -61,8 +60,8 @@ const data = {
       language: 'CSS',
     },
     {
-      img: jsIcon,
-      language: 'JavaScript',
+      img: tsIcon,
+      language: 'TypeScript',
     },
     {
       img: reactIcon,

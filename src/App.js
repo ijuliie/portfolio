@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Contact />
       <Footer date={new Date().getFullYear()} />
     </div>
