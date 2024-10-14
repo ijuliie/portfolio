@@ -6,7 +6,7 @@ const Header = () => {
         <div id='header' style={{ width: '100vw' }}>
             <div className='container'>
                 <h1 className='intro'>
-                    Julie Trinh
+                    hi i'm julie 🙋‍♀️
                 </h1>
             </div>
         </div>

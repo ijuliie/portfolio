@@ -13,17 +13,21 @@ const Card = (props) => {
                     image +
                     ")",
             }}
+            onClick={(e) => {
+                window.open(url, "_target")
+            }}
         >
             <div className="content">
-                <Button basic color='grey' size='large'>
-                    <a
-                        className='link'
-                        href={url ? url : "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                <Button 
+                    basic 
+                    color='black' 
+                    size='large' 
+                    onClick={(e) => {
+                        e.stopPropagation()
+                        window.open(url, "_target")
+                    }}
+                >
                         {heading}
-                    </a>
                 </Button>
                 <p className="text">{description}</p>
             </div>
