@@ -33,12 +33,6 @@ const data = {
       image: 'https://res.cloudinary.com/ijuliie/image/upload/v1636248018/Screenshot_2021-11-06_at_6.19.32_PM_y9c5du.png',
       url: 'https://recipeze.netlify.app/',
     },
-    {
-      title: 'Tangent Systems',
-      description: 'Experience with webflow',
-      image: 'https://res.cloudinary.com/ijuliie/image/upload/v1637078883/Screenshot_2021-11-16_at_8.07.47_AM_gxqtml.png',
-      url: 'https://www.tangent-inc.com/',
-    },
   ],
 
   // About Secton
