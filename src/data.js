@@ -17,13 +17,13 @@ const data = {
   projects: [
     {
       title: "Phocust",
-      description: "Created website for Phocust displaying music list and tour list using Bands In Town API",
+      description: "Created website for Phocust using React, Nextjs, and Material UI to display music list and tour list using Bands In Town API",
       image: "https://res.cloudinary.com/ijuliie/image/upload/v1769039579/Screenshot_2026-01-21_at_4.52.51_PM_tm4wak.png",
       url: "https://iamphocust.com/",
     },
     {
       title: "The Skin Center",
-      description: "Created website for The Skin Center implementing Square Booking and Appointments",
+      description: "Created website for The Skin Center using React, Nextjs, and Bootstrap implementing Square Booking and Appointments",
       image: "https://res.cloudinary.com/ijuliie/image/upload/v1769039440/Screenshot_2026-01-21_at_4.50.16_PM_zrvvvl.png",
       url: "https://theskincentertwinfalls.com/",
     },
