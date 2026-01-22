@@ -16,6 +16,18 @@ const data = {
   // Work Section
   projects: [
     {
+      title: "Phocust",
+      description: "Created website for Phocust displaying music list and tour list using Bands In Town API",
+      image: "https://res.cloudinary.com/ijuliie/image/upload/v1769039579/Screenshot_2026-01-21_at_4.52.51_PM_tm4wak.png",
+      url: "https://iamphocust.com/",
+    },
+    {
+      title: "The Skin Center",
+      description: "Created website for The Skin Center implementing Square Booking and Appointments",
+      image: "https://res.cloudinary.com/ijuliie/image/upload/v1769039440/Screenshot_2026-01-21_at_4.50.16_PM_zrvvvl.png",
+      url: "https://theskincentertwinfalls.com/",
+    },
+    {
       title: "Tether RE Portal",
       description: "Developed and maintained real estate admin portal using React, Typescript, and Material UI",
       image: "https://res.cloudinary.com/ijuliie/image/upload/v1728605518/Screenshot_2024-10-10_at_6.11.52_PM_ybemjr.png",
@@ -26,12 +38,6 @@ const data = {
       description: 'Designed restaurant menu website using React',
       image: 'https://res.cloudinary.com/ijuliie/image/upload/v1636234379/Screenshot_2021-11-06_at_2.32.46_PM_nxfva7.png',
       url: "http://thedelistation.com/",
-    },
-    {
-      title: 'Recipeze',
-      description: "Designed a Recipe website using React and Edamam API",
-      image: 'https://res.cloudinary.com/ijuliie/image/upload/v1636248018/Screenshot_2021-11-06_at_6.19.32_PM_y9c5du.png',
-      url: 'https://recipeze.netlify.app/',
     },
   ],
 

@@ -19,8 +19,8 @@ const Card = (props) => {
         >
             <div className="content">
                 <Button 
-                    basic 
-                    color='black' 
+                    inverted
+                    color='white' 
                     size='large' 
                     onClick={(e) => {
                         e.stopPropagation()
